@@ -1,38 +1,38 @@
-API de Validação de CPF em C#
-Esta é uma API desenvolvida em C# que valida CPFs informados. O objetivo é fornecer um serviço simples e eficiente para validar números de CPF, retornando o status de validade.
+🛠️ CPF Validator API
+API em C# para validar números de CPF.
 
-Funcionalidades
-Validação de CPF: A API recebe um CPF e verifica se ele é válido ou não, levando em consideração a estrutura e os dígitos verificadores.
-Tecnologias Utilizadas
+🚀 Funcionalidades
+✅ Validação de CPF (estrutural e com dígitos verificadores).
+⚙️ Tecnologias Utilizadas
 C#
 .NET Core
-Azure (para o deploy)
-Como Executar Localmente
-Clone este repositório para o seu ambiente local:
+Azure (deploy)
+💻 Como Executar Localmente
+Clone o repositório:
 
 bash
 Copiar
 Editar
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Navegue até o diretório do projeto:
+Acesse o diretório do projeto:
 
 bash
 Copiar
 Editar
 cd nome-do-repositorio
-Execute o projeto usando o .NET CLI:
+Execute o projeto:
 
 bash
 Copiar
 Editar
 dotnet run
-A API estará disponível em http://localhost:5000 ou outra porta configurada.
+API disponível em http://localhost:5000.
 
-Deploy na Azure
-Esta API foi implantada no Azure para garantir alta disponibilidade e escalabilidade. Caso deseje utilizar a versão em produção, acesse o link do serviço hospedado na Azure (insira o URL aqui).
+🌐 Deploy na Azure
+A API está hospedada no Azure. Para usar em produção, acesse: Link do Serviço Azure.
 
-Como Usar
-Faça uma requisição POST para o endpoint /api/valida-cpf com o seguinte corpo JSON:
+📝 Como Usar
+Envie um POST para /api/valida-cpf com o corpo:
 
 json
 Copiar
@@ -40,7 +40,7 @@ Editar
 {
     "cpf": "12345678909"
 }
-A resposta será um JSON indicando se o CPF é válido:
+Exemplo de resposta:
 
 json
 Copiar
@@ -48,6 +48,5 @@ Editar
 {
     "valido": true
 }
-Licença
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
-
+📄 Licença
+Este projeto é licenciado sob a MIT License.
